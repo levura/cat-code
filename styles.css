@@ -1,0 +1,206 @@
+*{
+    box-sizing:border-box;
+  }
+  body{
+    background:#696969;
+  }
+  
+  h1{
+    text-align:center;
+    font-family:sans-serif;
+    color:blue;
+  }
+  h1:hover{
+    color:green;
+  }
+  p{
+    padding-bottom:60px;
+    color:#fff;
+    text-align:center;
+    margin:10px auto;
+    font-size:20px;
+  }
+  .cat-head{
+    width:130px;
+    height:100px;
+    background: #fff;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:relative;
+    margin:5px auto;
+    border-radius:45%;
+  }
+  a{
+    text-decoration:none;
+  }
+  .cat-right-ear{
+    height:50px;
+    width:30px;
+    position:absolute;
+   border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid #fff;
+    transform:rotate(-45deg);
+    left:-26px;
+      border-top-left-radius: 50px;
+    top:-17px;
+  }
+  .cat-left-ear{
+    width:30px;
+    height:50px;
+    position:absolute;
+    left:98px;
+    border-right:30px solid transparent;
+    border-left:30px solid transparent;
+    border-bottom:60px solid #fff;
+    top:-15px;
+    transform:rotate(47deg);
+    border-top-right-radius: 50px;
+  }
+  .cat-right-inner-ear{
+    width:10px;
+    height:15px;
+    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+    border-bottom:20px solid #FFC0CB;
+    position:absolute;
+    bottom:-40px;
+    left:-10px;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+  }
+  .cat-left-inner-ear{
+    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+    border-bottom:20px solid #FFC0CB;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    bottom:-25px;
+    left:-10px;
+    top:14px;
+    position:absolute;
+  }
+  .cat-right-eye{
+    width:20px;
+    height:25px;
+    position:absolute;
+    border-radius:50%;
+    background-color:#000;
+    left:-12px;
+    bottom:-90px;
+    transform:rotate(-50deg);
+  }
+  .cat-left-eye{
+     width:20px;
+    height:25px;
+    position:absolute;
+    border-radius:50%;
+    background-color:#000;
+   top:100px; 
+    bottom:50px;
+    right:20px;
+    left:-45px;
+    transform:rotate(-40deg);
+  }
+  .cat-left-inner-eye{
+    width:8px;
+    height:12px;
+    border-radius:60%;
+    background-color:#fff;
+    position:absolute;
+    left:2px;
+    top:1px;
+    transform:rotate(12deg);
+  }
+  .cat-right-inner-eye{
+    width:8px;
+    height:12px;
+    position:absolute;
+    border-radius:60%;
+    background-color:#fff;
+    left:9px;
+    top:1px;
+    transform:rotate(-18deg);
+  }
+  #cat-nose{
+  width:12px;
+  height:15px;
+  bottom:0;
+  border-right:5px solid transparent;
+  border-left:5px solid transparent;
+  border-bottom: 10px solid #000;
+  transform:rotate(133deg);
+  /*   border-bottom-left-radius:10px; */
+  left:-6px;
+  top:107px;
+  position:absolute;
+  }
+  .mouth-one{
+    width:10px;
+    height:10px;
+    position:absolute;
+    left:4px;
+    top:113.5px;
+    transform:rotate(1deg);
+    border: 2px solid #000;
+    border-radius: 50%; 
+    border-top: none;  
+    border-left: none;
+  }
+  .mouth-two{
+    width:10px;
+    height:10px;
+    border:3px solid #000;
+    position:relative;
+    left:50px;
+    top:-70px;
+    margin-top:190px;
+    margin-left:-52px;
+    transform:rotate(1deg);
+    border: 3px solid #000;
+    border-radius: 50%; 
+    border-top: none;  
+    border-left: none;
+  }
+  .whisker-one{
+    width:20px;
+    height:1px;
+    background-color:#000;
+    position:absolute;
+    left:-20px;
+    top:130px;
+    transform:rotate(-30deg);
+  }
+  .whisker-two{
+    width:20px;
+    height:1px;
+    background-color:#000;
+    position:absolute;
+    left:1px;
+    top:104.9px;
+    margin-left:5px;
+    transform:rotate(120deg);
+  }
+  .whisker-three{
+    width:20px;
+    height:1px;
+    position:absolute;
+    background-color:#000;
+    top:110px;
+    left: 10px;
+    transform:rotate(135deg);
+  }
+  .whisker-four{
+    width:20px;
+    height:1px;
+    position:absolute;
+    top:135px;
+    left:-15px;
+  background-color:#000;
+    transform:rotate(135deg);
+  
+  }
